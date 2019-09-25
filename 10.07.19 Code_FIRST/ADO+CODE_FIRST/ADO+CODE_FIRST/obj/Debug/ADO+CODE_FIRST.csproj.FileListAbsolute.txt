@@ -1,0 +1,12 @@
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\ADO+CODE_FIRST.exe.config
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\ADO+CODE_FIRST.exe
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\ADO+CODE_FIRST.pdb
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\EntityFramework.dll
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\EntityFramework.xml
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\obj\Debug\ADO+CODE_FIRST.csprojResolveAssemblyReference.cache
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\obj\Debug\ADO+CODE_FIRST.csproj.CoreCompileInputs.cache
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\obj\Debug\ADO+CODE_FIRST.csproj.CopyComplete
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\obj\Debug\ADO+CODE_FIRST.exe
+c:\users\висковатых.наталия\source\repos\ADO+CODE_FIRST\ADO+CODE_FIRST\obj\Debug\ADO+CODE_FIRST.pdb

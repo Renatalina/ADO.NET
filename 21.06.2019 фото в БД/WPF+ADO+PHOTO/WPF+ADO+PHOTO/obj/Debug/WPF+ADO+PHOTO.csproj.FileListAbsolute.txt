@@ -1,0 +1,15 @@
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\bin\Debug\WPF+ADO+PHOTO.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\bin\Debug\WPF+ADO+PHOTO.exe
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\bin\Debug\WPF+ADO+PHOTO.pdb
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\MainWindow.g.cs
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\App.g.cs
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO_MarkupCompile.cache
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO_MarkupCompile.lref
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\MainWindow.baml
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.g.resources
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF_ADO_PHOTO.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.exe
+C:\Users\Висковатых.Наталия\source\repos\WPF+ADO+PHOTO\WPF+ADO+PHOTO\obj\Debug\WPF+ADO+PHOTO.pdb

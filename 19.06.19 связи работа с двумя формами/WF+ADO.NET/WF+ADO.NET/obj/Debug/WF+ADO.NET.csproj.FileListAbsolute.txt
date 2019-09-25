@@ -1,0 +1,11 @@
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\bin\Debug\WF+ADO.NET.exe.config
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\bin\Debug\WF+ADO.NET.exe
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\bin\Debug\WF+ADO.NET.pdb
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF+ADO.NET.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF_ADO.NET.Form1.resources
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF_ADO.NET.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF+ADO.NET.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF+ADO.NET.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF+ADO.NET.exe
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF+ADO.NET.pdb
+C:\Users\Висковатых.Наталия\source\repos\WF+ADO.NET\WF+ADO.NET\obj\Debug\WF_ADO.NET.Form2.resources

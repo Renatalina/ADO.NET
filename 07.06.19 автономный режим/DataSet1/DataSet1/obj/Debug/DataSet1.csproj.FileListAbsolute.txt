@@ -1,0 +1,7 @@
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\bin\Debug\DataSet1.exe.config
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\bin\Debug\DataSet1.exe
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\bin\Debug\DataSet1.pdb
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\obj\Debug\DataSet1.csprojResolveAssemblyReference.cache
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\obj\Debug\DataSet1.csproj.CoreCompileInputs.cache
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\obj\Debug\DataSet1.exe
+C:\Users\Задерей.Юрий\source\repos\DataSet1\DataSet1\obj\Debug\DataSet1.pdb

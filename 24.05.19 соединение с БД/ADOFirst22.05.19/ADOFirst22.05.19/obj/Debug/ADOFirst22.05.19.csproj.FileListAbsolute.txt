@@ -1,0 +1,7 @@
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\bin\Debug\ADOFirst22.05.19.exe.config
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\bin\Debug\ADOFirst22.05.19.exe
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\bin\Debug\ADOFirst22.05.19.pdb
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\obj\Debug\ADOFirst22.05.19.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\obj\Debug\ADOFirst22.05.19.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\obj\Debug\ADOFirst22.05.19.exe
+C:\Users\Висковатых.Наталия\source\repos\ADOFirst22.05.19\ADOFirst22.05.19\obj\Debug\ADOFirst22.05.19.pdb

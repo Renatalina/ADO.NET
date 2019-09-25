@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Ex1>
+  <People>
+    <Id>1</Id>
+    <FirstName>John</FirstName>
+    <LastName>Doe</LastName>
+    <BirthDate>1997-03-14T00:00:00+02:00</BirthDate>
+  </People>
+  <People>
+    <Id>2</Id>
+    <FirstName>Jeam</FirstName>
+    <LastName>McCalister</LastName>
+    <BirthDate>1996-08-22T00:00:00+03:00</BirthDate>
+  </People>
+</Ex1>

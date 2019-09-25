@@ -1,0 +1,12 @@
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EF_DBF.exe.config
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EF_DBF.exe
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EF_DBF.pdb
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EntityFramework.dll
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EntityFramework.xml
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\obj\Debug\EF_DBF.csprojResolveAssemblyReference.cache
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\obj\Debug\EF_DBF.csproj.CoreCompileInputs.cache
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\obj\Debug\EF_DBF.csproj.CopyComplete
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\obj\Debug\EF_DBF.exe
+C:\Users\Задерей.Юрий\source\repos\EF_DBF\EF_DBF\obj\Debug\EF_DBF.pdb

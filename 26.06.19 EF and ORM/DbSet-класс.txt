@@ -1,0 +1,159 @@
+Класс DbSet<TEntity>
+
+DbSet представляет коллекцию всех сущностей указанного типа, которые содержатся в контексте или могут быть запрошены из базы данных.
+Объекты DbSet создаются из DbContext с помощью метода DbContext.Set.
+
+Свойства
+
+ Local	Возвращает объект ObservableCollection<T>, содержащий локальное представление всех добавленных, неизменившихся и измененных сущностей в наборе. Это локальное представление остается синхронизированным по мере добавления или удаления сущностей из контекста. Аналогичным образом добавляемые или удаляемые из этого локального представления сущности автоматически добавляются в контекст или удаляются из контекста.
+
+Методы
+
+ Add	Добавляет заданную сущность к контексту, поддерживающему набор, в добавленном состоянии, в результате чего она будет вставлена в базу данных при вызове метода SaveChanges.
+ AddRange	
+ AsNoTracking	Возвращает новый запрос, в котором возвращаемые сущности не кэшируются в DbContext. (Производный от DbQuery<TResult>.)
+ AsStreaming	Возвращает новый запрос, который обеспечивает потоковую обработку результатов вместо буферизации. (Производный от DbQuery<TResult>.)
+ Attach	Присоединяет заданную сущность к контексту, поддерживающему данный набор. Это означает, что сущность помещается в контекст в неизмененном состоянии, как если бы она была считана из базы данных.
+ Create()	Создает новый экземпляр сущности для типа данного набора. Обратите внимание, что этот экземпляр НЕ добавляется в набор. Возвращаемый экземпляр будет учетной записью-посредником, если базовый контекст настроен для создания посредников, а тип сущности удовлетворяет требованиям для создания учетных записей-посредников.
+ Create<TDerivedEntity>()	Создает новый экземпляр сущности для типа данного набора или для типа, производного от типа данного набора. Обратите внимание, что этот экземпляр НЕ добавляется в набор. Возвращаемый экземпляр будет учетной записью-посредником, если базовый контекст настроен для создания посредников, а тип сущности удовлетворяет требованиям для создания учетных записей-посредников.
+ Equals	Определяет, равен ли заданный набор DbSet текущему. (Переопределяет DbQuery<TResult>.Equals(Object).)
+ Finalize	 (Производный от Object.)
+ Find	Обнаруживает сущность с указанными значениями первичного ключа. Если сущность с указанными значениями первичного ключа содержится в контексте, она возвращается немедленно без выполнения запроса к хранилищу. В противном случае выполняется запрос к хранилищу в поисках сущности с указанными значениями первичного ключа. Если такая сущность обнаружена, она добавляется к контексту и возвращается вызывающей стороне. Если сущность не обнаружена в контексте или в хранилище, возвращается значение NULL.
+ FindAsync(Object[])	
+ FindAsync(CancellationToken, Object[])	Асинхронно находит сущность с указанными значениями первичного ключа. Если сущность с указанными значениями первичного ключа содержится в контексте, она возвращается немедленно без выполнения запроса к хранилищу. В противном случае выполняется запрос к хранилищу в поисках сущности с указанными значениями первичного ключа. Если такая сущность обнаружена, она добавляется к контексту и возвращается вызывающей стороне. Если сущность не обнаружена в контексте или в хранилище, возвращается значение NULL.
+ GetHashCode	Возвращает хэш-функцию для данного объекта DbSet. (Переопределяет DbQuery<TResult>.GetHashCode().)
+ GetType	Возвращает тип текущего объекта DbSet.
+ Include	Задает связанные объекты, включаемые в результаты запроса. (Производный от DbQuery<TResult>.)
+ MemberwiseClone	 (Производный от Object.)
+ Remove	Помечает заданную сущность как удаленную, в результате чего она будет удалена из базы данных при вызове метода SaveChanges. Обратите внимание, что перед вызовом этого метода сущность должна существовать в контексте в каком-либо другом состоянии.
+ RemoveRange	
+ SqlQuery	Создает необработанный SQL-запрос, возвращающий сущности в данном наборе. По умолчанию возвращаемые сущности отслеживаются контекстом. Это поведение можно изменить, вызвав метод AsNoTracking для возвращаемого объекта DbSqlQuery<TEntity>. Обратите внимание, что сущности всегда имеют тип, заданный для набора, и никогда не имеют производный тип. Если запрашиваемая таблица или таблицы могут содержать данные других типов сущностей, SQL-запрос должен быть написан соответствующим образом, обеспечивая возврат только сущностей нужного типа.
+ ToString	Возвращает представление String базового запроса. (Производный от DbQuery<TResult>.)
+
+Методы расширения
+
+ AddOrUpdate<TEntity>(TEntity[])	Перегружен. (Определено DbSetMigrationsExtensions.)
+ AddOrUpdate<TEntity>(Expression<Func<TEntity, Object>>, TEntity[])	Перегружен. (Определено DbSetMigrationsExtensions.)
+ AllAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ AllAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AnyAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ AnyAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AnyAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ AnyAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AsNoTracking<TEntity>	 (Определено QueryableExtensions.)
+ AsStreaming<TEntity>	 (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Int32>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Int32>>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Int64>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Int64>>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Single>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Single>>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Double>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Double>>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Decimal>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Decimal>>>)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Int32>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Int32>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Int64>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Int64>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Single>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Single>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Double>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Double>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Decimal>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ AverageAsync<TEntity>(Expression<Func<TEntity, Nullable<Decimal>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ContainsAsync<TEntity>(TEntity)	Перегружен. (Определено QueryableExtensions.)
+ ContainsAsync<TEntity>(TEntity, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ CountAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ CountAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ CountAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ CountAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ FirstAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ FirstAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ FirstAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ FirstAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ FirstOrDefaultAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ FirstOrDefaultAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ FirstOrDefaultAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ FirstOrDefaultAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ForEachAsync(Action<Object>)	Перегружен. (Определено QueryableExtensions.)
+ ForEachAsync(Action<Object>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ForEachAsync<TEntity>(Action<TEntity>)	Перегружен. (Определено QueryableExtensions.)
+ ForEachAsync<TEntity>(Action<TEntity>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ Include<TEntity>(String)	Перегружен. (Определено QueryableExtensions.)
+ Include<TEntity, TProperty>(Expression<Func<TEntity, TProperty>>)	Перегружен. (Определено QueryableExtensions.)
+ Load	 (Определено QueryableExtensions.)
+ LoadAsync()	Перегружен. (Определено QueryableExtensions.)
+ LoadAsync(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ LongCountAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ LongCountAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ LongCountAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ LongCountAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ MaxAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ MaxAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ MaxAsync<TEntity, TResult>(Expression<Func<TEntity, TResult>>)	Перегружен. (Определено QueryableExtensions.)
+ MaxAsync<TEntity, TResult>(Expression<Func<TEntity, TResult>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ MinAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ MinAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ MinAsync<TEntity, TResult>(Expression<Func<TEntity, TResult>>)	Перегружен. (Определено QueryableExtensions.)
+ MinAsync<TEntity, TResult>(Expression<Func<TEntity, TResult>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SingleAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ SingleAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SingleAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ SingleAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SingleOrDefaultAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ SingleOrDefaultAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SingleOrDefaultAsync<TEntity>(Expression<Func<TEntity, Boolean>>)	Перегружен. (Определено QueryableExtensions.)
+ SingleOrDefaultAsync<TEntity>(Expression<Func<TEntity, Boolean>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ Skip<TEntity>	 (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Int32>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Int32>>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Int64>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Int64>>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Single>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Single>>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Double>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Double>>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Decimal>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Decimal>>>)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Int32>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Int32>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Int64>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Int64>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Single>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Single>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Double>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Double>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Decimal>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ SumAsync<TEntity>(Expression<Func<TEntity, Nullable<Decimal>>>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ Take<TEntity>	 (Определено QueryableExtensions.)
+ ToArrayAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ ToArrayAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey>(Func<TEntity, TKey>)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey>(Func<TEntity, TKey>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey>(Func<TEntity, TKey>, IEqualityComparer<TKey>)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey>(Func<TEntity, TKey>, IEqualityComparer<TKey>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey, TElement>(Func<TEntity, TKey>, Func<TEntity, TElement>)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey, TElement>(Func<TEntity, TKey>, Func<TEntity, TElement>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey, TElement>(Func<TEntity, TKey>, Func<TEntity, TElement>, IEqualityComparer<TKey>)	Перегружен. (Определено QueryableExtensions.)
+ ToDictionaryAsync<TEntity, TKey, TElement>(Func<TEntity, TKey>, Func<TEntity, TElement>, IEqualityComparer<TKey>, CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToListAsync()	Перегружен. (Определено QueryableExtensions.)
+ ToListAsync(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+ ToListAsync<TEntity>()	Перегружен. (Определено QueryableExtensions.)
+ ToListAsync<TEntity>(CancellationToken)	Перегружен. (Определено QueryableExtensions.)
+
+Явные реализации интерфейса
+
+ IListSource.ContainsListCollection	Возвращает значение типа false. (Производный от DbQuery<TResult>.)
+ IQueryable.ElementType	Тип элемента IQueryable. (Производный от DbQuery<TResult>.)
+ IQueryable.Expression	LINQ-выражение IQueryable. (Производный от DbQuery<TResult>.)
+ IEnumerable<TResult>.GetEnumerator	Возвращает перечисление для данного запроса, вызывая выполнение этого запроса к хранилищу. (Производный от DbQuery<TResult>.)
+ IEnumerable.GetEnumerator	Возвращает объект IEnumerator<T>, который при перечислении выполняет заданный запрос по отношению к базе данных. (Производный от DbQuery<TResult>.)
+ IListSource.GetList	Вызывает исключение, указывающее, что прямая привязка к запросу к хранилищу не поддерживается. Вместо этого заполните DbSet данными, например, с использованием метода расширения Load, а затем выполните привязку к локальным данным. Применительно к привязке WPF к DbSet.Local. Применительно к формам Windows Forms, связанным с DbSet.Local.ToBindingList(). (Производный от DbQuery<TResult>.)
+ IQueryable.Provider	Поставщик IQueryable. (Производный от DbQuery<TResult>.)
+ IDbAsyncEnumerable.GetAsyncEnumerator	Возвращает объект IDbAsyncEnumerator, который при перечислении выполняет заданный запрос по отношению к базе данных. (Производный от DbQuery<TResult>.)
+ IDbAsyncEnumerable<TResult>.GetAsyncEnumerator	Возвращает объект IDbAsyncEnumerator<T>, который при перечислении выполняет заданный запрос по отношению к базе данных. (Производный от DbQuery<TResult>.)
+
+Замечания
+
+Обратите внимание, что DbSet не поддерживает несколько наборов сущностей на тип, поэтому всегда обеспечивается однозначное соответствие между типом и набором.

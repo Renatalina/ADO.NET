@@ -1,0 +1,7 @@
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\bin\Debug\ADO+LINQU.exe.config
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\bin\Debug\ADO+LINQU.exe
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\bin\Debug\ADO+LINQU.pdb
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\obj\Debug\ADO+LINQU.csprojResolveAssemblyReference.cache
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\obj\Debug\ADO+LINQU.csproj.CoreCompileInputs.cache
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\obj\Debug\ADO+LINQU.exe
+c:\users\висковатых.наталия\source\repos\ADO+LINQU\ADO+LINQU\obj\Debug\ADO+LINQU.pdb

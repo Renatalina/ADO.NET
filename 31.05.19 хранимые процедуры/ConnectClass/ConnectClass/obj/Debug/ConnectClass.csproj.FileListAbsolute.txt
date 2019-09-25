@@ -1,0 +1,7 @@
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\bin\Debug\ConnectClass.exe.config
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\bin\Debug\ConnectClass.exe
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\bin\Debug\ConnectClass.pdb
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\obj\Debug\ConnectClass.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\obj\Debug\ConnectClass.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\obj\Debug\ConnectClass.exe
+C:\Users\Висковатых.Наталия\source\repos\ConnectClass\ConnectClass\obj\Debug\ConnectClass.pdb

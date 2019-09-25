@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="StudentsModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Group">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GroupName" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Persons" Relationship="Self.FK_Persons_Groups" FromRole="Groups" ToRole="Persons" />
+  </EntityType>
+  <EntityType Name="Person">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="GroupId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Group" Relationship="Self.FK_Persons_Groups" FromRole="Persons" ToRole="Groups" />
+  </EntityType>
+  <EntityType Name="Risk">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PersonsId" Type="Int32" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="BirthDate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="GroupId" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Persons_Groups">
+    <End Role="Groups" Type="Self.Group" Multiplicity="1" />
+    <End Role="Persons" Type="Self.Person" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Groups">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Persons">
+        <PropertyRef Name="GroupId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="StudentsEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Groups" EntityType="Self.Group" />
+    <EntitySet Name="Persons" EntityType="Self.Person" />
+    <EntitySet Name="Risks" EntityType="Self.Risk" />
+    <AssociationSet Name="FK_Persons_Groups" Association="Self.FK_Persons_Groups">
+      <End Role="Groups" EntitySet="Groups" />
+      <End Role="Persons" EntitySet="Persons" />
+    </AssociationSet>
+    <FunctionImport Name="NameUpdate">
+      <Parameter Name="Id" Mode="In" Type="Int32" />
+      <Parameter Name="LastName" Mode="In" Type="String" />
+    </FunctionImport>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF+ADO+PHOTO", "WPF+ADO+PHOTO\WPF+ADO+PHOTO.csproj", "{27A509FE-3705-47C5-BC1A-A5058773F277}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27A509FE-3705-47C5-BC1A-A5058773F277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A509FE-3705-47C5-BC1A-A5058773F277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A509FE-3705-47C5-BC1A-A5058773F277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A509FE-3705-47C5-BC1A-A5058773F277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BEDDC3FB-5B82-4188-A5CD-7498E410FC5C}
+	EndGlobalSection
+EndGlobal

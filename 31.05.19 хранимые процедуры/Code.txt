@@ -1,0 +1,52 @@
+Data Source=192.168.1.125,1433;Network Library=DBMSSOCN;Initial Catalog=yourDataBase;User ID=yourUsername;Password=yourPassword;
+
+
+CREATE PROCEDURE [dbo].NameUpdate
+	@Id int,
+	@LastName nvarchar(50)
+AS
+UPDATE Persons SET LastName = @LastName WHERE Id = @Id;
+
+
+
+https://meet.google.com/cks-gkzx-vqf
+
+ public void PersonUpdate(int id, string name)
+        {
+            using (SqlConnection connection = new SqlConnection(ConnectionString))
+            {
+                connection.Open();
+
+                SqlCommand command = new SqlCommand
+                {
+                    CommandText = "NameUpdate",
+                    Connection = connection,
+                    CommandType = CommandType.StoredProcedure
+                };
+
+                SqlParameter parameter = new SqlParameter
+                {
+                    ParameterName = "@Id",
+                    SqlDbType = SqlDbType.Int,
+                    Value = id
+                };
+                command.Parameters.Add(parameter);
+
+                parameter = new SqlParameter
+                {
+                    ParameterName = "@LastName",
+                    SqlDbType = SqlDbType.NVarChar,
+                    Value = name
+                };
+                command.Parameters.Add(parameter);
+
+                if (command.ExecuteNonQuery() > 0)
+                {
+                    Console.WriteLine("Command completed successfuly.");
+                }
+                else
+                {
+                    Console.WriteLine("Error");
+                }
+            }
+        }

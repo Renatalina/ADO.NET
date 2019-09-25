@@ -1,0 +1,38 @@
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe.config
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.pdb
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Form1.resources
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Properties.Resources.resources
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\GenerateResource.write.1.tlog
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.exe
+E:\Projects\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.pdb
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe.config
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.exe
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.pdb
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.pdb
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csprojResolveAssemblyReference.cache
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Form1.resources
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Properties.Resources.resources
+G:\Ш\MA\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csproj.GenerateResource.Cache
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe.config
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.exe
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.pdb
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.pdb
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csprojResolveAssemblyReference.cache
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Form1.resources
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Properties.Resources.resources
+D:\MyLessons\ADO_NET\5_Привязка\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csproj.GenerateResource.Cache
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe.config
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.exe
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\bin\Debug\Relations_WindowsForms.pdb
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Form1.resources
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.Properties.Resources.resources
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csproj.GenerateResource.cache
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.exe
+C:\Users\Висковатых.Наталия\Desktop\ADO\19.06.19 связи работа с двумя формами\Relations_WindowsForms\Relations_WindowsForms\obj\x86\Debug\Relations_WindowsForms.pdb

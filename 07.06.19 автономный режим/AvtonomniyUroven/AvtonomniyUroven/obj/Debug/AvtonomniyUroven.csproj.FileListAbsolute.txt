@@ -1,0 +1,7 @@
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\bin\Debug\AvtonomniyUroven.exe.config
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\bin\Debug\AvtonomniyUroven.exe
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\bin\Debug\AvtonomniyUroven.pdb
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\obj\Debug\AvtonomniyUroven.csprojResolveAssemblyReference.cache
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\obj\Debug\AvtonomniyUroven.csproj.CoreCompileInputs.cache
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\obj\Debug\AvtonomniyUroven.exe
+c:\users\висковатых.наталия\source\repos\AvtonomniyUroven\AvtonomniyUroven\obj\Debug\AvtonomniyUroven.pdb

@@ -1,0 +1,14 @@
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\bin\Debug\DataSet2.exe.config
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\bin\Debug\DataSet2.exe
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\bin\Debug\DataSet2.pdb
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\obj\Debug\DataSet2.csprojResolveAssemblyReference.cache
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\obj\Debug\DataSet2.csproj.CoreCompileInputs.cache
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\obj\Debug\DataSet2.exe
+C:\Users\Задерей.Юрий\source\repos\DataSet2\DataSet2\obj\Debug\DataSet2.pdb
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\bin\Debug\DataSet2.exe.config
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\bin\Debug\DataSet2.exe
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\bin\Debug\DataSet2.pdb
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\obj\Debug\DataSet2.csprojResolveAssemblyReference.cache
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\obj\Debug\DataSet2.csproj.CoreCompileInputs.cache
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\obj\Debug\DataSet2.exe
+C:\Users\Висковатых.Наталия\source\repos\ADO_DataSet2\DataSet2\obj\Debug\DataSet2.pdb
